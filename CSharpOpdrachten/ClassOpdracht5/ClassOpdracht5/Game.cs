@@ -8,14 +8,14 @@ namespace ClassOpdracht5
         {
 
             //maak hier een class variable aan (access= private, type=Tile, name=player)
-          ???
+            private Tile player;
             //maak hier een class variable aan (access= private, type=Room, name=room)
-
+            private Room room;
             internal Game()
             {
                 room = new Room();
 
-                player = new Tile(2, 2,'P');
+                player = new Tile(4, 5,'o');
             }
 
             internal void RenderWithConsole()

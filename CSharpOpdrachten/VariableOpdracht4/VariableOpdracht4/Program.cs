@@ -11,7 +11,7 @@ namespace VariableOpdracht4
             //maak een variable die constant is
             //vergeet het type niet!
 
-            string helloWorldConstante = "Hello world!";
+            const string helloWorldConstante = "Hello world!";
             Console.WriteLine(helloWorldConstante);
 
         }
